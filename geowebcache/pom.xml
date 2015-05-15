@@ -70,16 +70,12 @@
  
   <distributionManagement>
     <repository>
-      <id>boundless</id>
-      <name>Boundless</name>
-      <url>http://repo.boundlessgeo.com/main</url>
-      <uniqueVersion>false</uniqueVersion>
+      <id>idgis-releases</id>
+      <url>http://nexus.idgis.eu/content/repositories/releases/</url>
     </repository>
     <snapshotRepository>
-      <id>boundless</id>
-      <uniqueVersion>false</uniqueVersion>
-      <name>Boundless Maven Repository</name>
-      <url>http://repo.boundlessgeo.com/main</url>
+      <id>idgis-snapshots</id>
+      <url>http://nexus.idgis.eu/content/repositories/snapshots/</url>
      </snapshotRepository>
   </distributionManagement>
 
